@@ -1,37 +1,255 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Gabrieli Martins</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabrieli Martins | FullStack Developer</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <h2 class="logo">
-                <span>G</span>M
-            </h2>
 
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <canvas id="particles"></canvas>
+
+  <header>
+
+    <nav class="navbar" aria-label="Menu principal">
+
+      <h2 class="logo">
+        <span>G</span>M
+      </h2>
+
+      <ul class="menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <main>
 
     <section class="hero" id="hero">
-         <div class="smoke"></div>
 
-        <div class="hero-content">
-            <p class="subtitle">FullStack Developer</p>
-            <h1 class="title">
-                <span id="typing"></span>
-            </h1>
-        </div>
+      <div class="smoke"></div>
+
+      <div class="hero-content">
+
+        <p class="subtitle">FullStack Developer</p>
+
+        <h1 class="title">
+          <span id="typing"></span>
+        </h1>
+
+      </div>
+
     </section>
-    <script src="script.js"></script>
+
+    <div class="neon-line"></div>
+
+
+    <section class="about" id="about">
+
+      <h2 class="section-title">Sobre mim</h2>
+
+      <p>
+        Sou desenvolvedora FullStack apaixonada por tecnologia e pela criação
+        de aplicações web modernas, funcionais e bem estruturadas.
+        Tenho experiência no desenvolvimento de interfaces responsivas e na
+        construção de APIs e sistemas escaláveis utilizando tecnologias
+        como JavaScript, TypeScript, React, Node.js e Python.
+      </p>
+
+      <p>
+        Gosto de transformar ideias em soluções digitais, sempre buscando
+        escrever código limpo, organizado e seguindo boas práticas de
+        desenvolvimento. Estou constantemente aprendendo novas tecnologias
+        e aprimorando minhas habilidades para criar experiências cada vez
+        melhores.
+      </p>
+
+    </section>
+
+    <div class="neon-line"></div>
+
+
+    <section class="stack" id="stack">
+
+      <h2 class="section-title">Minha Stack</h2>
+
+      <div class="stack-container">
+
+
+        <div class="stack-category">
+
+          <h3>Frontend</h3>
+
+          <div class="stack-grid">
+
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-typescript-plain colored"></i>
+            <i class="devicon-react-original colored"></i>
+            <i class="devicon-tailwindcss-original colored"></i>
+            <i class="devicon-bootstrap-plain colored"></i>
+
+          </div>
+
+        </div>
+
+        <div class="stack-category">
+
+          <h3>Backend</h3>
+
+          <div class="stack-grid">
+
+            <i class="devicon-nodejs-plain colored"></i>
+            <i class="devicon-nestjs-plain colored"></i>
+            <i class="devicon-typescript-plain colored"></i>
+            <i class="devicon-python-plain colored"></i>
+            <i class="devicon-mysql-plain colored"></i>
+
+          </div>
+
+        </div>
+
+
+        <div class="stack-category">
+
+          <h3>Tools</h3>
+
+          <div class="stack-grid">
+
+            <i class="devicon-git-plain colored"></i>
+            <i class="devicon-jest-plain colored"></i>
+            <i class="devicon-vscode-plain colored"></i>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <div class="neon-line"></div>
+
+    <section class="projects" id="projects">
+
+      <h2 class="section-title">Projetos</h2>
+
+      <div class="projects-container">
+
+        <article class="project-card reveal">
+
+          <div class="project-image">
+            <img src="https://picsum.photos/600/400?random=1" alt="Aplicação Web">
+          </div>
+
+          <div class="project-info">
+
+            <h3>Aplicação Web</h3>
+
+            <p>
+              Aplicação moderna desenvolvida com foco em performance,
+              responsividade e boas práticas de desenvolvimento.
+            </p>
+
+            <a href="#" class="btn-glow">Ver projeto</a>
+
+          </div>
+
+        </article>
+
+        <article class="project-card reveal">
+
+          <div class="project-image">
+            <img src="https://picsum.photos/600/400?random=2" alt="Sistema Web">
+          </div>
+
+          <div class="project-info">
+
+            <h3>Sistema Web</h3>
+
+            <p>
+              Sistema completo com frontend moderno e backend estruturado,
+              focado em escalabilidade e organização de código.
+            </p>
+
+            <a href="#" class="btn-glow">Ver projeto</a>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card reveal">
+
+          <div class="project-image">
+            <img src="https://picsum.photos/600/400?random=3" alt="Dashboard">
+          </div>
+
+          <div class="project-info">
+
+            <h3>Dashboard Interativo</h3>
+
+            <p>
+              Interface interativa para visualização de dados com design
+              moderno e experiência de usuário otimizada.
+            </p>
+
+            <a href="#" class="btn-glow">Ver projeto</a>
+
+          </div>
+
+        </article>
+
+
+        <article class="project-card reveal">
+
+          <div class="project-image">
+            <img src="https://picsum.photos/600/400?random=4" alt="Landing Page">
+          </div>
+
+          <div class="project-info">
+
+            <h3>Landing Page</h3>
+
+            <p>
+              Landing page responsiva desenvolvida para alta conversão,
+              com foco em design moderno e performance.
+            </p>
+
+            <a href="#" class="btn-glow">Ver projeto</a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <div class="neon-line"></div>
+
+    <section class="contact" id="contact">
+
+      <h2 class="section-title">Contato</h2>
+
+    </section>
+
+  </main>
+
+  <script src="/js/script.js"></script>
+
 </body>
 </html>
