@@ -1,54 +1,77 @@
 # 💻 Gabrieli Martins | FullStack Developer
 
-Este é o repositório do meu **portfólio pessoal de desenvolvimento**, criado para apresentar meus projetos, habilidades e evolução na área de tecnologia.
+Bem-vindo ao repositório do meu **portfólio pessoal de desenvolvimento**.
 
-O objetivo do projeto é construir uma experiência moderna e interativa que represente minha identidade como desenvolvedora.
+Este projeto foi criado para apresentar **meus projetos, habilidades e evolução como desenvolvedora**, além de demonstrar minhas capacidades em **desenvolvimento front-end e construção de interfaces modernas**.
+
+---
+
+## 🌐 Acesse o portfólio
+
+🔗 Em breve disponível online
 
 ---
 
 ## ✨ Sobre o projeto
 
-O portfólio foi desenvolvido com foco em:
+O portfólio foi desenvolvido com foco em **design moderno, interatividade e experiência do usuário**.
 
-- Design moderno em **modo noturno**
-- Paleta em **tons de rosa e preto**
-- Interface elegante e minimalista
-- Interações visuais para melhorar a experiência do usuário
+A proposta do projeto é criar uma interface elegante e dinâmica que represente minha identidade como desenvolvedora.
 
-Alguns elementos da interface incluem:
+### Algumas funcionalidades presentes no projeto
 
-- 🎨 Background com gradientes
+- 🎨 Background animado com gradientes
 - ⌨️ Efeito de digitação no nome
-- 🌫️ Efeito de fumaça interativo ao passar o mouse
-- 💡 Layout responsivo
+- 🌫️ Efeito de fumaça interativo ao mover o mouse
+- ✨ Partículas animadas no fundo
+- 🌗 Alternância entre **modo claro e modo escuro**
+- 📜 Animações ao rolar a página
+- ⬆️ Botão de voltar ao topo
+- 📩 Formulário de contato funcional
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 
+Este projeto foi desenvolvido utilizando:
+
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+- **EmailJS** (para envio de mensagens pelo formulário)
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objetivo do projeto
 
-Este projeto tem como objetivo:
+O objetivo deste portfólio é:
 
-- Consolidar conhecimentos em **desenvolvimento web**
+- Consolidar meus conhecimentos em **desenvolvimento web**
 - Criar um **portfólio profissional**
 - Apresentar projetos para **recrutadores e empresas**
 - Explorar **interfaces criativas e interativas**
+- Demonstrar evolução contínua como desenvolvedora
 
 ---
 
 ## 📌 Status do projeto
 
-🚧 Em desenvolvimento
+🚧 **Em desenvolvimento**
 
-Novas seções e projetos serão adicionados ao longo do tempo.
+Novas melhorias e projetos serão adicionados ao longo do tempo.
 
 ---
 
-⭐ Obrigada por visitar o projeto!
+## 📬 Contato
+
+Se quiser entrar em contato comigo:
+
+💼 LinkedIn  
+https://www.linkedin.com/in/gabrielimartinsdev
+
+📧 Email  
+gabrielimartinsdev@gmail.com
+
+---
+
+⭐ Obrigada por visitar meu projeto!

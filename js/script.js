@@ -142,3 +142,74 @@ window.addEventListener("resize", ()=>{
   initParticles();
 
 });
+
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTop.style.display = "block";
+  } else {
+    backToTop.style.display = "none";
+  }
+});
+
+backToTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+const toggle = document.getElementById("themeToggle");
+
+toggle.addEventListener("click", () => {
+
+document.body.classList.toggle("light-mode");
+
+if(document.body.classList.contains("light-mode")){
+toggle.textContent="☀️";
+}else{
+toggle.textContent="🌙";
+}
+
+});
+
+const form = document.getElementById("contact-form");
+const button = document.getElementById("sendBtn");
+const status = document.getElementById("form-status");
+
+if (form) {
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    if (button) {
+      button.innerText = "Enviando...";
+      button.disabled = true;
+    }
+
+    emailjs.sendForm(
+      "service_66ocz5n",
+      "template_8r1kupl",
+      this
+    )
+    .then(() => {
+      if (button) button.innerText = "✓ Mensagem enviada";
+      if (status) status.innerText = "Mensagem enviada com sucesso!";
+      form.reset();
+
+      setTimeout(() => {
+        if (button) {
+          button.innerText = "Enviar mensagem";
+          button.disabled = false;
+        }
+      }, 4000);
+    })
+    .catch(() => {
+      if (button) {
+        button.innerText = "Erro ao enviar";
+        button.disabled = false;
+      }
+      if (status) status.innerText = "Erro ao enviar mensagem.";
+    });
+  });
+}     

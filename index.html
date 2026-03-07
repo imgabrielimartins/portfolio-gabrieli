@@ -6,15 +6,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gabrieli Martins | FullStack Developer</title>
+  <meta name="description" content="Portfólio de Gabrieli Martins, desenvolvedora FullStack especializada em JavaScript, React, Node.js e TypeScript.">
+  <meta name="author" content="Gabrieli Martins">
+  <meta name="keywords" content="Gabrieli Martins, FullStack Developer, JavaScript, React, Node.js, TypeScript, Portfólio Dev">
+  <meta property="og:title" content="Gabrieli Martins | FullStack Developer">
+  <meta property="og:description" content="Portfólio de Gabrieli Martins, desenvolvedora FullStack especializada em JavaScript, React e Node.js.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/images/preview.png">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
+<script>
+(function(){
+  emailjs.init("RYCCnBnYFCeGUUixg");
+})();
+</script>
 </head>
+
 <body>
 
   <canvas id="particles"></canvas>
 
   <header>
+
+    <div class="theme-switch">
+
+      <input type="checkbox" id="themeToggle">
+
+      <label for="themeToggle" class="switch">
+
+        <span class="icon sun">🌞</span>
+        <span class="icon moon">🌙</span>
+
+        <span class="slider"></span>
+
+      </label>
+
+    </div>
 
     <nav class="navbar" aria-label="Menu principal">
 
@@ -23,17 +54,32 @@
       </h2>
 
       <ul class="menu">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#stack">Stack</a></li>
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#contact">Contato</a></li>
+
+        <li>
+          <a href="#hero">Home</a>
+        </li>
+
+        <li>
+          <a href="#about">Sobre</a>
+        </li>
+
+        <li>
+          <a href="#stack">Stack</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projetos</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contato</a>
+        </li>
+
       </ul>
 
     </nav>
 
   </header>
-
 
   <main>
 
@@ -43,11 +89,30 @@
 
       <div class="hero-content">
 
-        <p class="subtitle">FullStack Developer</p>
+        <p class="subtitle">
+          FullStack Developer
+        </p>
 
         <h1 class="title">
           <span id="typing"></span>
         </h1>
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="btn-glow">
+            Ver projetos
+          </a>
+
+          <a
+            href="https://github.com/imgabrielimartins"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-outline"
+          >
+            GitHub
+          </a>
+
+        </div>
 
       </div>
 
@@ -55,10 +120,11 @@
 
     <div class="neon-line"></div>
 
-
     <section class="about" id="about">
 
-      <h2 class="section-title">Sobre mim</h2>
+      <h2 class="section-title">
+        Sobre mim
+      </h2>
 
       <p>
         Sou desenvolvedora FullStack apaixonada por tecnologia e pela criação
@@ -80,13 +146,13 @@
 
     <div class="neon-line"></div>
 
-
     <section class="stack" id="stack">
 
-      <h2 class="section-title">Minha Stack</h2>
+      <h2 class="section-title">
+        Minha Stack
+      </h2>
 
       <div class="stack-container">
-
 
         <div class="stack-category">
 
@@ -122,7 +188,6 @@
 
         </div>
 
-
         <div class="stack-category">
 
           <h3>Tools</h3>
@@ -145,9 +210,17 @@
 
     <section class="projects" id="projects">
 
-      <h2 class="section-title">Projetos</h2>
+      <h2 class="section-title">
+        Projetos
+      </h2>
 
+       <p class="dev-message">
+        🚧 Esta seção está em desenvolvimento. Novos projetos serão adicionados em breve!
+       </p>
+
+     <!-- 
       <div class="projects-container">
+
 
         <article class="project-card reveal">
 
@@ -164,7 +237,9 @@
               responsividade e boas práticas de desenvolvimento.
             </p>
 
-            <a href="#" class="btn-glow">Ver projeto</a>
+            <a href="#" class="btn-glow">
+              Ver projeto
+            </a>
 
           </div>
 
@@ -185,12 +260,13 @@
               focado em escalabilidade e organização de código.
             </p>
 
-            <a href="#" class="btn-glow">Ver projeto</a>
+            <a href="#" class="btn-glow">
+              Ver projeto
+            </a>
 
           </div>
 
         </article>
-
 
         <article class="project-card reveal">
 
@@ -207,12 +283,13 @@
               moderno e experiência de usuário otimizada.
             </p>
 
-            <a href="#" class="btn-glow">Ver projeto</a>
+            <a href="#" class="btn-glow">
+              Ver projeto
+            </a>
 
           </div>
 
         </article>
-
 
         <article class="project-card reveal">
 
@@ -229,13 +306,16 @@
               com foco em design moderno e performance.
             </p>
 
-            <a href="#" class="btn-glow">Ver projeto</a>
+            <a href="#" class="btn-glow">
+              Ver projeto
+            </a>
 
           </div>
 
         </article>
 
-      </div>
+      </div> 
+      -->
 
     </section>
 
@@ -243,13 +323,74 @@
 
     <section class="contact" id="contact">
 
-      <h2 class="section-title">Contato</h2>
+      <h2 class="section-title">
+        Vamos conversar
+      </h2>
+
+      <p class="contact-subtitle">
+        Tem um projeto, oportunidade ou ideia? Me envie uma mensagem.
+      </p>
+  <form id="contact-form" class="contact-form">
+
+    <div class="input-group">
+      <input type="text" name="name" placeholder="Digite seu nome" required>
+    </div>
+
+    <div class="input-group">
+      <input type="email" name="email" placeholder="Digite seu email" required>
+    </div>
+
+    <div class="input-group">
+      <textarea name="message" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn-send" id="sendBtn">
+      Enviar mensagem
+    </button>
+
+  </form>
+
+      <div class="contact-links">
+
+        <a
+          href="https://www.linkedin.com/in/gabrielimartinsdev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-outline"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          LinkedIn
+        </a>
+
+        <a
+          href="https://github.com/imgabrielimartins"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-outline"
+        >
+          <i class="fa-brands fa-github"></i>
+          GitHub
+        </a>
+
+      </div>
 
     </section>
 
   </main>
 
+  <footer class="footer">
+
+    <p class="footer-text">
+      © 2026 Gabrieli Martins — FullStack Developer
+    </p>
+
+  </footer>
+
+  <button id="backToTop">
+    ↑
+  </button>
+
   <script src="/js/script.js"></script>
 
 </body>
-</html>
+</html>    
